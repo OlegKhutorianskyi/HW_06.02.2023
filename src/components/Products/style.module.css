@@ -1,0 +1,44 @@
+.card{
+    width: 300px;
+    height: 500px;
+    padding: 32px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card img{
+    width: 70%;
+    background-size: cover;
+    height: 40%;
+}
+
+.card button{
+    width: 120px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.card button:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}
+
+.newPrice{
+    margin-right: 50px;
+    text-decoration: line-through;
+    font-size: 20px;
+    color: #000;
+}
+
+.oldPrice{
+    font-size: 20px;    
+    color: red;
+}
